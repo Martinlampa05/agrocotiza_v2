@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -26,27 +25,26 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
- <!-- Header -->
-<header class="bg-white shadow-sm border-b-2 border-green-200 z-20 relative">
-  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-    <div class="flex items-center space-x-2">
-      <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
-        <span class="text-white font-bold text-lg">🌾</span>
+  <!-- Header -->
+  <header class="bg-white shadow-sm border-b border-green-100">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">🌾</span>
+        </div>
+        <span class="text-2xl font-bold text-green-700">AgroCotiza</span>
       </div>
-      <span class="text-2xl font-bold text-green-700">AgroCotiza</span>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#como-funciona" class="text-gray-600 hover:text-green-600 transition">¿Cómo funciona?</a>
+        <a href="#beneficios" class="text-gray-600 hover:text-green-600 transition">Beneficios</a>
+        <a href="#form" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Contacto</a>
+      </nav>
     </div>
-    <nav class="hidden md:flex space-x-6">
-      <a href="#como-funciona" class="text-gray-700 hover:text-green-600 transition font-medium">¿Cómo funciona?</a>
-      <a href="#beneficios" class="text-gray-700 hover:text-green-600 transition font-medium">Beneficios</a>
-      <a href="#form" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Contacto</a>
-    </nav>
-  </div>
-</header>
+  </header>
 
-<!-- Hero -->
-<section class="hero-bg grain-pattern text-white py-24 px-4 relative z-10">
-  <div class="absolute inset-0 bg-gradient-to-b from-green-700/90 via-green-600/80 to-green-700/80 pointer-events-none"></div>
-  <div class="max-w-6xl mx-auto text-center relative z-10">
+  <!-- Hero -->
+  <section class="hero-bg grain-pattern text-white py-24 px-4">
+    <div class="max-w-6xl mx-auto text-center">
       <div class="mb-6">
         <span class="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
           🚀 Próximamente en Argentina
@@ -265,59 +263,7 @@
     </div>
   </section>
 
-
-
-<!-- INSERTAMOS LA SECCIÓN DE PLANES ACÁ -->
-<section id="precios" class="py-20 px-4 bg-white border-t border-gray-200">
-  <div class="max-w-6xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Planes para Empresas</h2>
-    <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Elegí el plan que mejor se adapte a tu empresa</p>
-
-    <div class="grid md:grid-cols-3 gap-8">
-      <!-- Plan Básico -->
-      <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border card-hover">
-        <h3 class="text-xl font-bold mb-4 text-green-700">Plan Básico</h3>
-        <p class="text-3xl font-extrabold text-green-800 mb-6">$15.000 <span class="text-base font-medium text-gray-500">/mes</span></p>
-        <ul class="text-sm text-gray-600 space-y-3 mb-6 text-left">
-          <li>✔ Hasta 2 cereales</li>
-          <li>✔ Panel de carga simple</li>
-          <li>✔ Publicación en zona</li>
-        </ul>
-        <a href="#form" class="block bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">Quiero este plan</a>
-      </div>
-
-      <!-- Plan Intermedio -->
-      <div class="bg-white p-8 rounded-2xl shadow-md border-2 border-green-600 card-hover">
-        <h3 class="text-xl font-bold mb-4 text-green-700">Plan Intermedio</h3>
-        <p class="text-3xl font-extrabold text-green-800 mb-6">$30.000 <span class="text-base font-medium text-gray-500">/mes</span></p>
-        <ul class="text-sm text-gray-600 space-y-3 mb-6 text-left">
-          <li>✔ Hasta 5 cereales</li>
-          <li>✔ Publicación nacional</li>
-          <li>✔ Destacado en resultados</li>
-          <li>✔ Soporte prioritario</li>
-        </ul>
-        <a href="#form" class="block bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">Quiero este plan</a>
-      </div>
-
-      <!-- Plan Premium -->
-      <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border card-hover">
-        <h3 class="text-xl font-bold mb-4 text-green-700">Plan Premium</h3>
-        <p class="text-3xl font-extrabold text-green-800 mb-6">$50.000 <span class="text-base font-medium text-gray-500">/mes</span></p>
-        <ul class="text-sm text-gray-600 space-y-3 mb-6 text-left">
-          <li>✔ Todos los cereales</li>
-          <li>✔ Visibilidad prioritaria</li>
-          <li>✔ Soporte 1 a 1</li>
-          <li>✔ Reunión mensual</li>
-        </ul>
-        <a href="#form" class="block bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">Quiero este plan</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TODO el resto del archivo posterior a esta sección -->
-
- <!-- CTA Section -->
+  <!-- CTA Section -->
   <section class="py-20 px-4 bg-yellow-400">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl md:text-4xl font-bold text-green-900 mb-6">
@@ -333,84 +279,75 @@
   </section>
 
   <!-- Formulario de contacto -->
-  <section id="form" class="py-20 px-4 bg-white">
-    <div class="max-w-xl mx-auto">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-4">🚀 Sumate a la revolución</h2>
-        <p class="text-gray-600">Dejá tus datos y te avisamos cuando AgroCotiza esté lista para usar</p>
-      </div>
-      
-      <form id="leadForm" class="space-y-6 bg-gray-50 p-8 rounded-2xl">
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">Nombre completo *</label>
-          <input type="text" name="nombre" placeholder="Ej: Juan Pérez" 
-                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" required>
-        </div>
-        
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
-          <input type="email" name="email" placeholder="tu@email.com" 
-                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" required>
-        </div>
-        
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">Teléfono (opcional)</label>
-          <input type="tel" name="telefono" placeholder="Ej: +54 9 351 123 4567" 
-                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
-        </div>
-        
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">Provincia *</label>
-          <select name="provincia" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" required>
-            <option value="">Seleccionar provincia</option>
-            <option value="Buenos Aires">Buenos Aires</option>
-            <option value="Córdoba">Córdoba</option>
-            <option value="Santa Fe">Santa Fe</option>
-            <option value="Entre Ríos">Entre Ríos</option>
-            <option value="La Pampa">La Pampa</option>
-            <option value="Santiago del Estero">Santiago del Estero</option>
-            <option value="Chaco">Chaco</option>
-            <option value="Salta">Salta</option>
-            <option value="Tucumán">Tucumán</option>
-            <option value="Otra">Otra</option>
-          </select>
-        </div>
-        
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">¿Qué cereales producís? (opcional)</label>
-          <input type="text" name="cereales" placeholder="Ej: Soja, Maíz, Trigo" 
-                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
-        </div>
-        
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-2">¿Sos productor o trabajás en una empresa? *</label>
-          <select name="tipo_usuario" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent" required>
-            <option value="">Seleccionar</option>
-            <option value="Productor">Productor</option>
-            <option value="Empresa/Acopio">Empresa/Acopio</option>
-            <option value="Otro">Otro</option>
-          </select>
-        </div>
-        
-        <button type="submit" id="submitBtn"
-                class="w-full bg-green-600 text-white font-semibold py-4 rounded-lg hover:bg-green-700 transition transform hover:scale-[1.02] shadow-lg">
-          🌾 Quiero que me avisen cuando esté lista
-        </button>
-        
-        <div id="successMessage" class="hidden bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded text-center">
-          ✅ ¡Perfecto! Ya tenemos tus datos. Te avisamos cuando AgroCotiza esté lista.
-        </div>
-        
-        <div id="errorMessage" class="hidden bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded text-center">
-          ❌ Hubo un error. Por favor intentá de nuevo.
-        </div>
-        
-        <p class="text-xs text-gray-500 text-center">
-          No enviamos spam. Solo te contactamos cuando AgroCotiza esté lista.
-        </p>
-      </form>
+  <!-- Formulario de contacto con Formspree -->
+<section id="form" class="py-20 px-4 bg-white">
+  <div class="max-w-xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-4">🚀 Sumate a la revolución</h2>
+      <p class="text-gray-600">Dejá tus datos y te avisamos cuando AgroCotiza esté lista para usar</p>
     </div>
-  </section>
+
+    <form action="https://formspree.io/f/xrbeneqn" method="POST" class="space-y-6 bg-gray-50 p-8 rounded-2xl">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Nuevo contacto desde AgroCotiza">
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Nombre completo *</label>
+        <input type="text" name="Nombre completo" required class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+        <input type="email" name="Email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Teléfono (opcional)</label>
+        <input type="tel" name="Teléfono" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Provincia *</label>
+        <select name="Provincia" required class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+          <option value="">Seleccionar provincia</option>
+          <option value="Buenos Aires">Buenos Aires</option>
+          <option value="Córdoba">Córdoba</option>
+          <option value="Santa Fe">Santa Fe</option>
+          <option value="Entre Ríos">Entre Ríos</option>
+          <option value="La Pampa">La Pampa</option>
+          <option value="Santiago del Estero">Santiago del Estero</option>
+          <option value="Chaco">Chaco</option>
+          <option value="Salta">Salta</option>
+          <option value="Tucumán">Tucumán</option>
+          <option value="Otra">Otra</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">¿Qué cereales producís? (opcional)</label>
+        <input type="text" name="Cereales" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">¿Sos productor o trabajás en una empresa? *</label>
+        <select name="Tipo de usuario" required class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+          <option value="">Seleccionar</option>
+          <option value="Productor">Productor</option>
+          <option value="Empresa/Acopio">Empresa/Acopio</option>
+          <option value="Otro">Otro</option>
+        </select>
+      </div>
+
+      <button type="submit" class="w-full bg-green-600 text-white font-semibold py-4 rounded-lg hover:bg-green-700 transition">
+        🌾 Quiero que me avisen cuando esté lista
+      </button>
+
+      <p class="text-xs text-gray-500 text-center">
+        No enviamos spam. Solo te contactamos cuando AgroCotiza esté lista.
+      </p>
+    </form>
+  </div>
+</section>
 
   <script>
     document.getElementById('leadForm').addEventListener('submit', async function(e) {
@@ -519,5 +456,6 @@
       </div>
     </div>
   </footer>
+
 </body>
 </html>
