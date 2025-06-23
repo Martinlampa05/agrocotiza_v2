@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -25,26 +26,27 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-  <!-- Header -->
-  <header class="bg-white shadow-sm border-b border-green-100">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="flex items-center space-x-2">
-        <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
-          <span class="text-white font-bold text-lg">🌾</span>
-        </div>
-        <span class="text-2xl font-bold text-green-700">AgroCotiza</span>
+ <!-- Header -->
+<header class="bg-white shadow-sm border-b-2 border-green-200 z-20 relative">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="flex items-center space-x-2">
+      <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
+        <span class="text-white font-bold text-lg">🌾</span>
       </div>
-      <nav class="hidden md:flex space-x-6">
-        <a href="#como-funciona" class="text-gray-600 hover:text-green-600 transition">¿Cómo funciona?</a>
-        <a href="#beneficios" class="text-gray-600 hover:text-green-600 transition">Beneficios</a>
-        <a href="#form" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Contacto</a>
-      </nav>
+      <span class="text-2xl font-bold text-green-700">AgroCotiza</span>
     </div>
-  </header>
+    <nav class="hidden md:flex space-x-6">
+      <a href="#como-funciona" class="text-gray-700 hover:text-green-600 transition font-medium">¿Cómo funciona?</a>
+      <a href="#beneficios" class="text-gray-700 hover:text-green-600 transition font-medium">Beneficios</a>
+      <a href="#form" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Contacto</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- Hero -->
-  <section class="hero-bg grain-pattern text-white py-24 px-4">
-    <div class="max-w-6xl mx-auto text-center">
+<!-- Hero -->
+<section class="hero-bg grain-pattern text-white py-24 px-4 relative z-10">
+  <div class="absolute inset-0 bg-gradient-to-b from-green-700/90 via-green-600/80 to-green-700/80 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto text-center relative z-10">
       <div class="mb-6">
         <span class="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
           🚀 Próximamente en Argentina
@@ -263,7 +265,59 @@
     </div>
   </section>
 
-  <!-- CTA Section -->
+
+
+<!-- INSERTAMOS LA SECCIÓN DE PLANES ACÁ -->
+<section id="precios" class="py-20 px-4 bg-white border-t border-gray-200">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Planes para Empresas</h2>
+    <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Elegí el plan que mejor se adapte a tu empresa</p>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Plan Básico -->
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border card-hover">
+        <h3 class="text-xl font-bold mb-4 text-green-700">Plan Básico</h3>
+        <p class="text-3xl font-extrabold text-green-800 mb-6">$15.000 <span class="text-base font-medium text-gray-500">/mes</span></p>
+        <ul class="text-sm text-gray-600 space-y-3 mb-6 text-left">
+          <li>✔ Hasta 2 cereales</li>
+          <li>✔ Panel de carga simple</li>
+          <li>✔ Publicación en zona</li>
+        </ul>
+        <a href="#form" class="block bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">Quiero este plan</a>
+      </div>
+
+      <!-- Plan Intermedio -->
+      <div class="bg-white p-8 rounded-2xl shadow-md border-2 border-green-600 card-hover">
+        <h3 class="text-xl font-bold mb-4 text-green-700">Plan Intermedio</h3>
+        <p class="text-3xl font-extrabold text-green-800 mb-6">$30.000 <span class="text-base font-medium text-gray-500">/mes</span></p>
+        <ul class="text-sm text-gray-600 space-y-3 mb-6 text-left">
+          <li>✔ Hasta 5 cereales</li>
+          <li>✔ Publicación nacional</li>
+          <li>✔ Destacado en resultados</li>
+          <li>✔ Soporte prioritario</li>
+        </ul>
+        <a href="#form" class="block bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">Quiero este plan</a>
+      </div>
+
+      <!-- Plan Premium -->
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border card-hover">
+        <h3 class="text-xl font-bold mb-4 text-green-700">Plan Premium</h3>
+        <p class="text-3xl font-extrabold text-green-800 mb-6">$50.000 <span class="text-base font-medium text-gray-500">/mes</span></p>
+        <ul class="text-sm text-gray-600 space-y-3 mb-6 text-left">
+          <li>✔ Todos los cereales</li>
+          <li>✔ Visibilidad prioritaria</li>
+          <li>✔ Soporte 1 a 1</li>
+          <li>✔ Reunión mensual</li>
+        </ul>
+        <a href="#form" class="block bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">Quiero este plan</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TODO el resto del archivo posterior a esta sección -->
+
+ <!-- CTA Section -->
   <section class="py-20 px-4 bg-yellow-400">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl md:text-4xl font-bold text-green-900 mb-6">
@@ -379,7 +433,7 @@
       
       try {
         // REEMPLAZÁ ESTA URL POR LA DE TU GOOGLE APPS SCRIPT
-        const response = await fetch('https://script.google.com/macros/s/AKfycbyn-R6pTvj1Hm8U-LN-K7-ww4nA88id8Yf8ahec7xLc-4SqHp9nSOEL6lo46fWg9qzR/exec', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbyufiOwW7ctJKrPXH8Mo1AMib7qB3AfA5RJH1pWq5YT9HjfCMdNwYatcRJFVG9uzAzd/exec', {
           method: 'POST',
           mode: 'cors',
           headers: {
@@ -456,6 +510,5 @@
       </div>
     </div>
   </footer>
-
 </body>
 </html>
